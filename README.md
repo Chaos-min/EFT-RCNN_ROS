@@ -1,5 +1,5 @@
-# video
-look: https://www.bilibili.com/video/BV1g5aqznE8x/?spm_id_from=333.1387.list.card_archive.click&vd_source=ef216662158dd7b08a506691db35dcf0
+# Demo video
+Look: https://www.bilibili.com/video/BV1g5aqznE8x/?spm_id_from=333.1387.list.card_archive.click&vd_source=ef216662158dd7b08a506691db35dcf0
 
 # EFT-RCNN_ROS
 Robust Pedestrian Detection and Intrusion Judgment in Coal Yard Hazard Areas via 3D LiDAR-Based Deep Learning. 
