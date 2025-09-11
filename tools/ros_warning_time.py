@@ -369,8 +369,8 @@ class EFTRCNN_ROS:
         except Exception as e:
             logger.warning(f"JIT optimization failed: {e}")
 
-        # 获取行人类别索引, 不同数据集的类别索引不同，nuscenes为pedestrian；kitti为Pedestrian TODO
-        self.pedestrian_idx = cfg.CLASS_NAMES.index('pedestrian') + 1  # +1 因为模型输出是1-based
+        # 获取行人类别索引, 不同数据集的类别索引不同，kitti为Pedestrian
+        self.pedestrian_idx = cfg.CLASS_NAMES.index('Pedestrian') + 1  # +1 因为模型输出是1-based
 
     def rotate_mat(self, axis, radian):
         """创建旋转矩阵"""
